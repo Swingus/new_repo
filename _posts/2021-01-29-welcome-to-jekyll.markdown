@@ -9,13 +9,13 @@ This is the first post of the project, and as such it contains everything I took
 Introduction:
 Procedural Content Generation(PCG): the algorithmic creation of game content with limited or indirect user input
 
-	Examples: levels, maps, game rules, textures, stories, items, quests, music, weapons, vehicles, characters
+Examples: levels, maps, game rules, textures, stories, items, quests, music, weapons, vehicles, characters
 
 Within their definition of games, generated content must meet the following: Levels are completable, items and environment should be affordably interactable(such as ascending a generated staircase or using a generated weapon), and you must be able to win a generated game
 
 Uses: Removes need for a human designer or artist to generate content. The high costs of developers promotes risk avoidance and less diversity of the marketplace. Additionally can be used to augment human creators, allowing for designers and artists to create content with greater ease.
 
-	Proposed endless game, which generates faster than it’s played, and even models after the players’ behaviour to be tailored to them
+Proposed endless game, which generates faster than it’s played, and even models after the players’ behaviour to be tailored to them
 
 One initial use was to overcome the physical limits of older games.
 
