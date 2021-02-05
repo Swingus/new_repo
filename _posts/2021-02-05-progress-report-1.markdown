@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chapter 2 Lab Planning Phase"
+title:  "First post"
 date:   2021-01-29 02:39:38 -0700
 categories: Procedural Content Generation Independent Study
 ---
@@ -20,8 +20,9 @@ I considered the best and worst case dungeon lengths to set optimization paramet
 
 Below is the spritesheet for the room layouts, with those on the bottom and right edges being secret passageway sprites. Upon further thinking, secret passageways might be a stretch goal for this project.
 
-![spritesheet](/assets/RoomSpriteSheet.PNG)
+![spritesheet](/assets/RoomSpriteSheet.png)
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[jekyll-talk]: https://talk.jekyllrb.com/
+
