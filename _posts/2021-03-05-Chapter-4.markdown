@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Leaving Infinitux"
+date:   2021-01-29 02:39:38 -0700
+categories: Procedural Content Generation Independent Study
+---
+
+Fractals, Noise, and Agents as applied to landscapes
+
+Application, flight simulators where the terrain serves purely a visual purpose rather than functional, and also has to be very large due to the high speeds at which planes can fly. The terrain needs to be believable and not take that much memory in the system.
+
+Some uses of terrain have gameplay intentionality as well, such as mountains in skyrim serving aesthetic purpose as well as forming a boundary. Therefore, sometimes a good deal of control is needed.
+
+FPS terrain often has a lot of gameplay usage, since it effects where can shoot, as well as forming a boundary.
+
+height or intensity map is a 2d matrix which holds elevation or brightness values, and serve as a good place for noise to influence.
+
+Bilinear interpolation checks along the x and y axis to find points which you've randomly generated. Then it forms a gradual slope of heights in between these values. The drawback to this is that these slopes are somewhat jagged, since they form a line from one point to another.
+
+Bicubic interpolation uses an S curve to have a more gentle transition from one height to another. A common example of this S curve is x = -2x^3 + 3x^2
+
+Gradient Based has the noise determine steepness and direction of slope rather than height of a grid cell. This is what's called Perlin noise, after Ken Perlin used it in the film Tron. Each latice point instead of holding a height value holds a 2d vector, which is the steepness and direction of the slope.
+
+Fractal Terrain gets away from the problem of the lattice, since the lattice specifies that there will be a terrain feature every x distance. The diamond square algorithm does this by starting with a square with features in each corner, using those features to determine the feature where their diagonals intersect, then bisecting the square's perimeter with features based on the new feature and the corner features, and continuing to do so as you now have four smaller squares to base this algorithm off of.
+
+Agent based landscapes provide more control to the creator. Doran and Parberry use several different types of agents which work concurrently. Coastline, Smoothing, Beach, Mountain, Hill, and River. After the coastline phase is complete, the other five agent types work together and base their work off of one anothers to create a cohesive environment. 
+
+Search Base Landscaping
+
+Genetic terrain programming uses phenotypes for the heightmap. It uses an expression tree to create an indirect and compact representation of the map. This is good for more fluid 3d environments using engine specific terrain creation tools.
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
+
