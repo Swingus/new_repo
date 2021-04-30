@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First post"
+title:  "Progress Report"
 date:   2021-02-05 02:39:38 -0700
 categories: Procedural Content Generation Independent Study
 ---
