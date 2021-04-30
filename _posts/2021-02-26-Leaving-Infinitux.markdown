@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Leaving Infinitux"
-date:   2021-01-29 02:39:38 -0700
+date:   2021-02-26 02:39:38 -0700
 categories: Procedural Content Generation Independent Study
 ---
 Unfortunately, despite it's appearances the codebase for the platformerai competition were too outdated. I was unabled to get it to work, even with using older installations of intellij. As such I propose an alternative to the platformer assignment: generating an overworld map via cellular automata.

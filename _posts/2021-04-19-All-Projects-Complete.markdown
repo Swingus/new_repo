@@ -6,7 +6,7 @@ categories: Procedural Content Generation Independent Study
 ---
 The first project involved using genetic algorithms to procedurally generate a dungeon. I used the tunneller agent and then optimized for distance between the entrance and exit of the dungeon. This is shown below. The tunneller is fairly naive, and allows for backtracking over already generated rooms, but it essentially carves out a map from being a collection of just walls into one which involves rooms and corridors.
 
-![tunneler](/assets/RoomSpriteSheet.PNG)
+![layout](/assets/layout.PNG)
 
 The second project consisted of using cellular automata to generate cavelike structures. First, the entire floor is randomly generated. Then, each pass of the algorithm converts tiles of either wall or floor into the other type if the majority of their adjacent tiles is of the other type. I enjoyed this algorithm a lot, and it would later be used in my third and fifth projects as well.
 
