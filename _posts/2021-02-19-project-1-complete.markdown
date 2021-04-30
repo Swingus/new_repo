@@ -10,9 +10,9 @@ My implementation involves using a tunneler of sorts, which I borrowed the idea 
 
 The genetic step optimizes for distance from entrance to exit, or head to tail of the array. The mutation factor involves running additional steps of the array to find a new tail from which to base this distance on. Below is an example of a dungeon layout, and also a codesnippet of the tunneler.
 
-![tunneler](/assets/tunneler.png)
+![tunneler](/assets/tunneler.PNG)
 
-![layout](/assets/layout.png)
+![layout](/assets/layout.PNG)
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
