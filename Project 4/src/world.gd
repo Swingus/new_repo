@@ -65,7 +65,7 @@ func generate(start_position, iterations, length_red, color, width, rule):
 
 class Treee:
 	var axiom
-	var rules = {"F" : "FXAFYAFXBFYXFY"}
+	var rules = {"F" : "FXAFYFXBFYXFY"}
 	var actions = {}
 	var angle
 	

@@ -31,8 +31,8 @@ func _ready():
 
 
 func create_level():
-	for x in range(grid_size):
-		for y in range(grid_size):
+	for x in range(1, grid_size - 1):
+		for y in range(1, grid_size - 1):
 			match matrix[x][y]:
 				0:
 					var current_pix = Vector2(x - (grid_size * .5), y - (grid_size * .5)) * grid_spread

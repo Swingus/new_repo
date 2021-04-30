@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Leaving Infinitux"
+title:  "Chapter 4"
 date:   2021-01-29 02:39:38 -0700
 categories: Procedural Content Generation Independent Study
 ---
