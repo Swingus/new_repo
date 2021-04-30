@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2/12"
-date:   2021-01-29 02:39:38 -0700
+date:   2021-02-12 02:39:38 -0700
 categories: Procedural Content Generation Independent Study
 ---
 Constructive Generation

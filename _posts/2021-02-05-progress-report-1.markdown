@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "First post"
-date:   2021-01-29 02:39:38 -0700
+date:   2021-02-05 02:39:38 -0700
 categories: Procedural Content Generation Independent Study
 ---
-nfortunately I had a number of assignments due this week, so I had less time to work on this project than I would have liked. So what I did this week was more of a planning phase.
+Unfortunately I had a number of assignments due this week, so I had less time to work on this project than I would have liked. So what I did this week was more of a planning phase.
 
 First I planned out how I would implement the dungeon. While some examples include hallways connecting rooms, I rather considered a full room implementation. Every room has at least one exit, facing north, south, east, or west. The maximum number of exits is 4, in which every direction has an exit.
 

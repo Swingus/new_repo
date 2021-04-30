@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Project 1 Completion"
-date:   2021-01-29 02:39:38 -0700
+date:   2021-02-19 02:39:38 -0700
 categories: Procedural Content Generation Independent Study
 ---
 My implementation wound up being in Godot rather than Unity. I'd initially planned for Unity, but wound up disliking it a lot. Realistically, I should have given myself a week to mess around with different developement environments before I started working on the project, but regardless I'm happy to have settled into something I'm comfortable with.
