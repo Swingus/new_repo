@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Chapter 4"
-date:   2021-01-29 02:39:38 -0700
+date:   2021-03-05 02:39:38 -0700
 categories: Procedural Content Generation Independent Study
 ---
 
@@ -23,7 +23,7 @@ Gradient Based has the noise determine steepness and direction of slope rather t
 
 Fractal Terrain gets away from the problem of the lattice, since the lattice specifies that there will be a terrain feature every x distance. The diamond square algorithm does this by starting with a square with features in each corner, using those features to determine the feature where their diagonals intersect, then bisecting the square's perimeter with features based on the new feature and the corner features, and continuing to do so as you now have four smaller squares to base this algorithm off of.
 
-Agent based landscapes provide more control to the creator. Doran and Parberry use several different types of agents which work concurrently. Coastline, Smoothing, Beach, Mountain, Hill, and River. After the coastline phase is complete, the other five agent types work together and base their work off of one anothers to create a cohesive environment. 
+Agent based landscapes provide more control to the creator. Doran and Parberry use several different types of agents which work concurrently. Coastline, Smoothing, Beach, Mountain, Hill, and River. After the coastline phase is complete, the other five agent types work together and base their work off of one anothers to create a cohesive environment.
 
 Search Base Landscaping
 
